@@ -7,7 +7,7 @@ A full-stack order management system for a clothing e-commerce business.
 - Frontend: React, TypeScript
 - Backend: Java Spring Boot
 - Database: PostgreSQL
-- Tools: Git, GitHub, Postman/Swagger
+- Tools: Git, GitHub, VS Code, Thunder Client/Postman
 
 ## Planned Features
 
@@ -23,4 +23,20 @@ A full-stack order management system for a clothing e-commerce business.
 
 ## Project Goal
 
-The aim of this project is to demonstrate full-stack software development skills including database design, REST API development, frontend design, authentication, validation and testing.
+The aim of this project is to demonstrate full-stack software development skills, including database design, REST API development, frontend design, authentication, validation and testing.
+
+## Current Progress
+
+- Project repository created
+- React TypeScript frontend created
+- Spring Boot backend created
+- Health check API endpoint added
+
+## Local Development
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
