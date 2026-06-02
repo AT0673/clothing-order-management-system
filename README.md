@@ -31,6 +31,9 @@ The aim of this project is to demonstrate full-stack software development skills
 - React TypeScript frontend created
 - Spring Boot backend created
 - Health check API endpoint added
+- PostgreSQL database created
+- Backend configured to connect to PostgreSQL
+- Database plan documented
 
 ## Local Development
 
