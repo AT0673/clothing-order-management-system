@@ -34,6 +34,10 @@ The aim of this project is to demonstrate full-stack software development skills
 - PostgreSQL database created
 - Backend configured to connect to PostgreSQL
 - Database plan documented
+- Customer entity created
+- Customer repository created
+- Customer API endpoints added
+- Customer endpoints tested using Thunder Client/Postman
 
 ## Local Development
 
@@ -43,3 +47,20 @@ The aim of this project is to demonstrate full-stack software development skills
 cd frontend
 npm install
 npm run dev
+
+## API Endpoints
+
+### Health
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/health` | Checks if the backend is running |
+
+### Customers
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/customers` | Get all customers |
+| GET | `/api/customers/{id}` | Get one customer by ID |
+| POST | `/api/customers` | Create a new customer |
+| DELETE | `/api/customers/{id}` | Delete a customer |
